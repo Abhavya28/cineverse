@@ -1,7 +1,13 @@
-import React from "react";
+import Navbar from "../common/navbar";
+import Hero from "../common/hero";
 
 const LandingPage = () => {
-  return <div>landingPage</div>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 };
 
 export default LandingPage;
